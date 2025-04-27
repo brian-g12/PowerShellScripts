@@ -1,0 +1,1 @@
+(Measure-Command {Resolve-DnsName -Name www.google.com -Server 192.168.50.1 -DnsOnly -NoHostsFile -Type A_AAAA}).TotalMilliseconds
